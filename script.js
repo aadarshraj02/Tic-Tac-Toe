@@ -26,3 +26,11 @@ boxes.forEach((box)=>{
         box.disabled = true
     })
 })
+
+const checkWinner = ()=>{
+    for(pattern of winPatterns){
+        let pos1Val = boxes[pattern[0]].innerHTML;
+        let pos2Val = boxes[pattern[1]].innerHTML;
+        let pos3Val = boxes[pattern[2]].innerHTML;
+    }
+}
