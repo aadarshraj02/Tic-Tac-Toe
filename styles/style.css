@@ -7,3 +7,14 @@ body{
     background-color: #548687;
     text-align: center;
 }
+
+.container{
+    height: 70vh;
+}
+
+.game{
+    height: 60vmin;
+}
+.box{
+    height:18vmin ;
+}
