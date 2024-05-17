@@ -36,3 +36,11 @@ body{
     font-size: 8vmin;
     color: #b0413e;
 }
+#reset{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
