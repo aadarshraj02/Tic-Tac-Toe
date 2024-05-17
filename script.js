@@ -69,3 +69,5 @@ function resetGame(){
     enableBoxes();
     msgContainer.classList.add("hide")
 }
+
+newGameButton.addEventListener("click",resetGame)
