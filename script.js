@@ -23,7 +23,8 @@ boxes.forEach((box)=>{
             box.innerHTML = 'X'
             turnO = true;
         }
-        box.disabled = true
+        box.disabled = true;
+        checkWinner()
     })
 })
 
@@ -32,5 +33,11 @@ const checkWinner = ()=>{
         let pos1Val = boxes[pattern[0]].innerHTML;
         let pos2Val = boxes[pattern[1]].innerHTML;
         let pos3Val = boxes[pattern[2]].innerHTML;
+
+        if(pos1Val != "" && pos2Val != "" && pos3Val != ""){
+            if(pos1Val === pos2Val && pos2Val === pos3Val){
+                console.log("winner")
+            }
+        }
     }
 }
