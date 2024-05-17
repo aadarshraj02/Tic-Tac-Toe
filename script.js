@@ -44,3 +44,8 @@ const checkWinner = ()=>{
         }
     }
 }
+
+function showWinner(winner){
+    msg.innerHTML = `The winner i ${winner}`;
+    msgContainer.classList.remove("hide")
+}
