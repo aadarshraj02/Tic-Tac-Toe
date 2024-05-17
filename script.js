@@ -70,4 +70,5 @@ function resetGame(){
     msgContainer.classList.add("hide")
 }
 
-newGameButton.addEventListener("click",resetGame)
+newGameButton.addEventListener("click",resetGame);
+resetBtn.addEventListener("click",resetGame)
