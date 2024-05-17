@@ -23,5 +23,6 @@ boxes.forEach((box)=>{
             box.innerHTML = 'X'
             turnO = true;
         }
+        box.disabled = true
     })
 })
