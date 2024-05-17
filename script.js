@@ -70,6 +70,11 @@ function resetGame(){
     enableBoxes();
     msgContainer.classList.add("hide")
 }
+const gameDraw = () => {
+    msg.innerText = `Game was a Draw.`;
+    msgContainer.classList.remove("hide");
+    disableBoxes();
+  };
 
 newGameButton.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame)
