@@ -5,6 +5,7 @@ let msgContainer = document.querySelector('.msg-container')
 let msg = document.querySelector('#msg')
 
 let turnO = true;
+let count = 0;
 
 function disableBoxes(){
     for(let box of boxes){
