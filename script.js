@@ -6,6 +6,12 @@ let msg = document.querySelector('#msg')
 
 let turnO = true;
 
+function disableBoxes(){
+    for(let box of boxes){
+        box.disabled = true
+    }
+}
+
 const winPatterns = [
     [0,1,2],
     [0,3,6],
@@ -50,3 +56,4 @@ function showWinner(winner){
     msg.innerHTML = `The winner is ${winner}`;
     msgContainer.classList.remove("hide")
 }
+
