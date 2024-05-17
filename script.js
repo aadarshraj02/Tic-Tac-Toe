@@ -1,6 +1,6 @@
 let boxes = document.querySelectorAll('.box');
 let resetBtn = document.querySelector('#reset')
-
+let newGameButton = document.querySelector('#new-game')
 let turnO = true;
 
 const winPatterns = [
