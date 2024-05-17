@@ -14,6 +14,7 @@ function disableBoxes(){
 function enableBoxes(){
     for(let box of boxes){
         box.disabled = false;
+        box.innerHTML = "";
     }
 }
 
@@ -63,3 +64,8 @@ function showWinner(winner){
     disableBoxes()
 }
 
+function resetGame(){
+    turnO = true;
+    enableBoxes();
+    msgContainer.classList.add("hide")
+}
