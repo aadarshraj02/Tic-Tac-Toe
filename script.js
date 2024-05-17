@@ -11,6 +11,11 @@ function disableBoxes(){
         box.disabled = true
     }
 }
+function enableBoxes(){
+    for(let box of boxes){
+        box.disabled = false;
+    }
+}
 
 const winPatterns = [
     [0,1,2],
