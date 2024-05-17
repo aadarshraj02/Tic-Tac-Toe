@@ -55,5 +55,6 @@ const checkWinner = ()=>{
 function showWinner(winner){
     msg.innerHTML = `The winner is ${winner}`;
     msgContainer.classList.remove("hide")
+    disableBoxes()
 }
 
